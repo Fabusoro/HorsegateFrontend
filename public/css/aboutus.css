@@ -1,0 +1,157 @@
+.about-us-container{
+    padding: 10px;
+    margin-top: 100px;
+}
+.our-mission-section{
+    display: flex;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-bottom: 100px;
+    margin-top: -100px;
+}
+
+.mission-header-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.mission-header{
+    font-family: 'Karla';
+    color: #D2042D;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.mission-sub-header{
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 700;
+    color: #28282B;
+    text-shadow:0px 0px 3px #4b4b4e;
+    letter-spacing: 0.4rem;
+}
+
+.mission-image{
+    width: 556px;
+    border-radius: 30px;
+    
+}
+
+.mission-statement-image{
+    width: 556px;
+    border-radius: 30px;
+    margin-left: -90px;
+    margin-top: 30px;
+}
+
+.mission-details-container{
+    margin-top: 250px;
+}
+
+.mission-statement{
+    font-family: 'Karla';
+    font-size: 20px;
+    text-align: left;
+}
+
+.brief-history-container{
+    margin-bottom: 50px;
+}
+
+.history-header{
+    font-family: 'Poppins';
+    color: #28282B;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.history-paragraph{
+    font-family: 'karla';
+}
+
+@media screen and (max-width: 600px){
+    
+    .our-mission-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-bottom: 100px;
+        margin-top: -100px;
+    }
+    
+    .mission-header-container{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    .mission-header{
+        font-family: 'Karla';
+        color: #D2042D;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .mission-sub-header{
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 22px;
+        font-weight: 700;
+        color: #28282B;
+        text-shadow:0px 0px 3px #4b4b4e;
+        letter-spacing: 0.4rem;
+    }
+    
+    .mission-image{
+        display: none;
+        width: 556px;
+        border-radius: 30px;
+        
+    }
+    
+    .mission-statement-image{
+        width: 556px;
+        border-radius: 30px;
+        margin-left: -90px;
+        margin-top: 30px;
+        display: none;
+    }
+    
+    .mission-details-container{
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .mission-statement{
+        font-family: 'Karla';
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .brief-history-container{
+        margin-bottom: 150px;
+    }
+    
+    .history-header{
+        font-family: 'Poppins';
+        color: #28282B;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .history-paragraph{
+        font-family: 'karla';
+    }
+}
+
